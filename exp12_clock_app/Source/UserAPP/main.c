@@ -14,6 +14,7 @@
 #include "..\Driver\WDT.h"
 #include "..\Driver\I2C.h"
 #include "..\Driver\SysTick.h"
+#include "..\Module\Segment.h"
 #include "clock_app.h"
 
 /*_____ D E C L A R A T I O N S ____________________________________________*/
@@ -54,6 +55,16 @@ int main(void)
     /* Khởi tạo Application */
     ClockApp_Init();
 
+    // // Test GPIO hoàn toàn thủ công - không cần SysTick
+    // SET_LED0_ON;       // LED D6 có sáng không?
+
+    // Digital_Display_Clock(1, 23);
+    // // Quét thủ công 1000 lần liên tục
+    // for(int i = 0; i < 100000; i++) {
+    //     Digital_Scan();
+    //     // Delay nhỏ bằng vòng lặp rỗng
+    //     for(volatile int d = 0; d < 100; d++);
+    // }
     /*======================================================================
      * SUPER LOOP - Vòng lặp chính
      *

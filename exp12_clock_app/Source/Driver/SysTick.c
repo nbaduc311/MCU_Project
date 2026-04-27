@@ -90,7 +90,11 @@ void SysTick_Handler(void)
 	// --- Hệ số tăng tốc độ đồng hồ (DEBUG MODE) ---
 	uint16_t debug_speed = 1;
 
-	volatile uint16_t timer_repeat = 0;
-	volatile uint8_t timer_1s_flag = 0;
-	volatile uint8_t timer_1ms_flag = 0;
+	timer_repeat++;
+	if(timer_repeat >= (1000 / debug_speed))	// Ngưỡng lật cờ giây
+	{
+		timer_repeat = 0;
+		timer_1s_flag = 1;
+	}
+	timer_1ms_flag = 1;
 }

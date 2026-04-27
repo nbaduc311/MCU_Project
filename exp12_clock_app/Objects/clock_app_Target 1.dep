@@ -1,6 +1,6 @@
 Dependencies for Project 'clock_app', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\Source\UserAPP\main.c)(0x69EED549)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/main.o -MMD)
+F (.\Source\UserAPP\main.c)(0x69EEDB3F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/main.o -MMD)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400.h)(0x69EA2E4A)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm0.h)(0x69EA2CAF)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\system_SN32F400.h)(0x69EA2E4A)
@@ -9,9 +9,10 @@ I (Source\UserAPP\..\Driver\GPIO.h)(0x69EA28F8)
 I (Source\UserAPP\..\Driver\CT16B0.h)(0x69EA28F8)
 I (Source\UserAPP\..\Driver\WDT.h)(0x69EA28F8)
 I (Source\UserAPP\..\Driver\I2C.h)(0x69EA28F8)
-I (Source\UserAPP\..\Driver\SysTick.h)(0x69EE4F47)
+I (Source\UserAPP\..\Driver\SysTick.h)(0x69EEDCFD)
+I (Source\UserAPP\..\Module\Segment.h)(0x69EE5E98)
 I (Source\UserAPP\clock_app.h)(0x69EE620C)
-F (.\Source\UserAPP\clock_app.c)(0x69EED2F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/clock_app.o -MMD)
+F (.\Source\UserAPP\clock_app.c)(0x69EEDDEE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/clock_app.o -MMD)
 I (Source\UserAPP\clock_app.h)(0x69EE620C)
 I (Source\UserAPP\..\Module\Buzzer.h)(0x69EEC448)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400.h)(0x69EA2E4A)
@@ -21,6 +22,8 @@ I (Source\UserAPP\..\Module\Segment.h)(0x69EE5E98)
 I (Source\UserAPP\..\Module\KeyScan.h)(0x69EA28F8)
 I (Source\UserAPP\..\Module\EEPROM.h)(0x69EEC3FB)
 I (Source\UserAPP\..\Driver\GPIO.h)(0x69EA28F8)
+I (Source\UserAPP\..\Driver\Systick.h)(0x69EEDCFD)
+I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400_Def.h)(0x69EA2E4A)
 F (.\Source\Driver\PFPA.c)(0x69EA28F8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/pfpa.o -MMD)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400.h)(0x69EA2E4A)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm0.h)(0x69EA2CAF)
@@ -53,7 +56,7 @@ I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\
 I (C:\Users\khanh\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm0.h)(0x69EA2CAF)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\system_SN32F400.h)(0x69EA2E4A)
 I (Source\Driver\I2C.h)(0x69EA28F8)
-I (Source\Driver\SysTick.h)(0x69EE4F47)
+I (Source\Driver\SysTick.h)(0x69EEDCFD)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400_Def.h)(0x69EA2E4A)
 I (Source\Driver\Utility.h)(0x69EA28F8)
 F (.\Source\Driver\CT16B0.c)(0x69EE66CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/ct16b0.o -MMD)
@@ -63,8 +66,8 @@ I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\
 I (Source\Driver\CT16.h)(0x69EA28F8)
 I (Source\Driver\CT16B0.h)(0x69EA28F8)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400_Def.h)(0x69EA2E4A)
-F (.\Source\Driver\SysTick.c)(0x69EE66DC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/systick.o -MMD)
-I (Source\Driver\SysTick.h)(0x69EE4F47)
+F (.\Source\Driver\SysTick.c)(0x69EEDAF2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/khanh/AppData/Local/Arm/Packs/ARM/CMSIS/6.3.0/CMSIS/Core/Include-IC:/Users/khanh/AppData/Local/Arm/Packs/SONiX/SN32F4_DFP/1.1.1/Device/Include-D__UVISION_VERSION="543" -DSN32F400 -D_RTE_-o ./objects/systick.o -MMD)
+I (Source\Driver\SysTick.h)(0x69EEDCFD)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\SN32F400.h)(0x69EA2E4A)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\ARM\CMSIS\6.3.0\CMSIS\Core\Include\core_cm0.h)(0x69EA2CAF)
 I (C:\Users\khanh\AppData\Local\Arm\Packs\SONiX\SN32F4_DFP\1.1.1\Device\Include\system_SN32F400.h)(0x69EA2E4A)

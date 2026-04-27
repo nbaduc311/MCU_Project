@@ -11,6 +11,7 @@
 #include "..\Module\KeyScan.h"
 #include "..\Module\EEPROM.h"
 #include "..\Driver\GPIO.h"
+#include "..\Driver\Systick.h"
 
 /*_____ D E C L A R A T I O N S ____________________________________________*/
 /*==========================================================================
@@ -28,6 +29,7 @@ static void _handle_sw3(void);
 static void _handle_sw16(void);
 static void _handle_sw6(void);
 static void _handle_sw10(void);
+static void _handle_sw18(void);
 
 static void _enter_mode(ClockMode_t new_mode);
 static void _exit_to_normal(uint8_t save_time);
@@ -301,6 +303,7 @@ static void _process_keys(void)
         case KEY_13:  _handle_sw16(); break;  /* SW16: ALARM   */
         case KEY_4:   _handle_sw6();  break;  /* SW6: +        */
         case KEY_8:   _handle_sw10(); break;  /* SW10: -       */
+        case KEY_16:  _handle_sw18(); break;  /* SW18: DEBUG   */
         default: break;
     }
 }
@@ -413,6 +416,14 @@ static void _handle_sw10(void)  /* Nút - */
     }
     s_blink_ms = 0;
     s_blink_on = 1;
+}
+
+static void _handle_sw18(void)  /* Nút DEBUG_Mode */
+{
+    _buzzer_pip();
+
+    if (debug_speed == 1) debug_speed = 2; // Bật Debug
+    else debug_speed = 1;                    // Tắt Debug
 }
 
 /*==========================================================================
